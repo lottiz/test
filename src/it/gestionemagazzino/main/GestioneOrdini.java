@@ -70,7 +70,7 @@ public class GestioneOrdini {
 
 		System.out.println("Rimuovi accessori Ordine 3");
 		ordine3.removeArticoloOrdine(accessori);
-
+//Prova
 		System.out.println("Stampa Ordine 3");
 		ordine3.stampaOrdine();
 
