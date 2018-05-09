@@ -70,7 +70,7 @@ public class GestioneOrdini {
 
 		System.out.println("Rimuovi accessori Ordine 3");
 		ordine3.removeArticoloOrdine(accessori);
-//Prova
+		// Prova
 		System.out.println("Stampa Ordine 3");
 		ordine3.stampaOrdine();
 
@@ -124,8 +124,7 @@ public class GestioneOrdini {
 		// for (Ordine ordine : elenco_provvisorio) {
 		// System.out.println(ordine.getCostoTotale());
 		// }
-		
-		
+
 		System.out.println("Ordine Binario");
 		int n = Collections.binarySearch(elenco_provvisorio, ordine3);
 		System.out.println(n);
